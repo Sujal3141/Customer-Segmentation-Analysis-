@@ -41,7 +41,7 @@ Customer Segmentation Analysis is a data-driven project designed to categorize c
 
 ![Customer Segmentation Diagram](images/download.png)
 
-![Customer Segmentation Diagram](images/download (2).png)
+![Customer Segmentation Diagram](images/download2.png)
 
 ##  Mathematical Hypothesis Based on the Heatmap Analysis
 
