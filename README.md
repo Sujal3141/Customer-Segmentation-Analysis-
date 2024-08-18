@@ -21,13 +21,17 @@ Customer Segmentation Analysis is a data-driven project designed to categorize c
 ## Key Features
 ⦿ Data Preprocessing: Handling missing values, encoding categorical variables, and standardizing features.
 
-⦿Clustering Analysis: Implementing K-Means and DBSCAN algorithms to identify customer segments.
+⦿Clustering Analysis: Implementing K-Means  algorithm to identify customer segments.
 
 ⦿Dimensionality Reduction: Using PCA (Principal Component Analysis) to visualize high-dimensional data in a 2D or 3D space.
+
+![Customer Segmentation Diagram](images/download1.png)
 
 ⦿Outlier Detection: Identifying and removing outliers to improve the accuracy of the clustering.
 
 ⦿Web Application: A Flask application that allows users to input customer data and view the predicted customer segment.
+
+
 
 ⦿Visualization: Interactive plots and graphs to visualize the clusters and customer profiles.
 
