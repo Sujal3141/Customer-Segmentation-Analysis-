@@ -21,20 +21,43 @@ Customer Segmentation Analysis is a data-driven project designed to categorize c
 ## Key Features
 ⦿ Data Preprocessing: Handling missing values, encoding categorical variables, and standardizing features.
 
-⦿Clustering Analysis: Implementing K-Means  algorithm to identify customer segments.
+⦿ Clustering Analysis: Implementing K-Means  algorithm to identify customer segments.
 
-⦿Dimensionality Reduction: Using PCA (Principal Component Analysis) to visualize high-dimensional data in a 2D or 3D space.
+![Customer Segmentation Diagram](images/download (3).png)
 
-![Customer Segmentation Diagram](images/download1.png)
 
-⦿Outlier Detection: Identifying and removing outliers to improve the accuracy of the clustering.
+⦿ Dimensionality Reduction: Using PCA (Principal Component Analysis) to visualize high-dimensional data in a 2D or 3D space.
+
+![Customer Segmentation Diagram](images/download (1).png)
+
+⦿ Outlier Detection: Identifying and removing outliers to improve the accuracy of the clustering.
 
 ⦿Web Application: A Flask application that allows users to input customer data and view the predicted customer segment.
 
+![Customer Segmentation Diagram](images/download (4).png)
 
 
-⦿Visualization: Interactive plots and graphs to visualize the clusters and customer profiles.
+⦿ Visualization: Interactive plots and graphs to visualize the clusters and customer profiles.
 
 ![Customer Segmentation Diagram](images/download.png)
 
+![Customer Segmentation Diagram](images/download (2).png)
 
+##  Mathematical Hypothesis Based on the Heatmap Analysis
+
+### Dependency of Spending Score on Age:
+
+**Hypothesis H₁:** Spending Score (S) is positively correlated with Age (A) more strongly than with other factors. This suggests that as Age increases, Spending Score tends to increase or decrease in a consistent manner.
+
+### Gender-Based Influence on Spending Score:
+
+**Hypothesis H₂:** Spending Score (S) has equal but opposite dependencies on the binary gender variables Male (G_M) and Female (G_F):
+
+- For Male (G_M), the correlation with Spending Score is direct: S ∝ G_M.
+- For Female (G_F), the correlation with Spending Score is inverse: S ∝ -G_F.
+
+**Equality of Magnitude:** The magnitude of correlation is identical for both genders, indicating that the effect size is the same but in opposite directions:
+
+If S = k × G_M, then S = -k × G_F,
+
+where k is a constant.
