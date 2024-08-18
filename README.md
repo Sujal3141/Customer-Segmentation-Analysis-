@@ -104,3 +104,18 @@ The Average Age is around 28 years , Average Annual Income is around 62 k$ , ave
 - `app.py`: The main Python script that runs the Flask web application. This file includes the route definitions, model loading, and request handling logic.
 
 - `model.pkl`: The serialized machine learning model file. It is loaded in `app.py` to make predictions based on user input.
+
+## Installation and Usage
+1. Clone the repository:
+   git clone (https://github.com/Sujal3141/Customer-Segmentation-Analysis-.git)
+2. Create a virtual environment and activate it:
+  `myenv\Scripts\activate`
+3. Install the required packages:
+   pip install -r requirements.txt
+4. Run the Flask application:
+    python app.py
+5. Access the web application:
+    Open the generated link in the terminal .
+   
+You can access the live web application for customer segmentation analysis at the following link:
+[Customer Segmentation Analysis Web App](https://customer-segmentation-analysis.onrender.com/)
