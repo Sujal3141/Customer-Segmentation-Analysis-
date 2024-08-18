@@ -61,3 +61,27 @@ Customer Segmentation Analysis is a data-driven project designed to categorize c
 If S = k × G_M, then S = -k × G_F,
 
 where k is a constant.
+
+## Analysis of Customer Clusters
+
+| Cluster | Age       | Annual Income (k$) | Spending Score (1-100) | Gender_Female | Gender_Male |
+|---------|-----------|-------------------|------------------------|---------------|-------------|
+| 0       | 49.437500 | 62.416667          | 29.208333               | 0.0           | 1.0         |
+| 1       | 28.392857 | 60.428571          | 68.178571               | 1.0           | 0.0         |
+| 2       | 47.803571 | 58.071429          | 34.875000               | 1.0           | 0.0         |
+| 3       | 28.250000 | 62.000000          | 71.675000               | 0.0           | 1.0         |
+
+### Cluster 0
+The Average Age is around 49 years , Average Annual Income is around 62.4 k$ , average spending score is around 29 and all customers in this cluster seems to be Male.
+
+### Cluster 1
+The Average Age is around 28 years , Average Annual Income is around 60.4 k$ , average spending score is around 68 and all customers in this cluster seems to be Female.
+
+### Cluster 2
+The Average Age is around 47 years , Average Annual Income is around 58 k$ , average spending score is around 34 and all customers in this cluster seems to be Female.
+
+### Cluster 3
+The Average Age is around 28 years , Average Annual Income is around 62 k$ , average spending score is around 71 and all customers in this cluster seems to be Male.
+
+
+
