@@ -23,25 +23,25 @@ Customer Segmentation Analysis is a data-driven project designed to categorize c
 
 ⦿ Clustering Analysis: Implementing K-Means  algorithm to identify customer segments.
 
-![Customer Segmentation Diagram](images/download (3).png)
+![Customer Segmentation Diagram](images/Elbow_Method.png)
 
 
 ⦿ Dimensionality Reduction: Using PCA (Principal Component Analysis) to visualize high-dimensional data in a 2D or 3D space.
 
-![Customer Segmentation Diagram](images/download (1).png)
+![Customer Segmentation Diagram](images/PCA.png)
 
 ⦿ Outlier Detection: Identifying and removing outliers to improve the accuracy of the clustering.
 
 ⦿Web Application: A Flask application that allows users to input customer data and view the predicted customer segment.
 
-![Customer Segmentation Diagram](images/download (4).png)
+![Customer Segmentation Diagram](images/Flask_web_app.png)
 
 
 ⦿ Visualization: Interactive plots and graphs to visualize the clusters and customer profiles.
 
-![Customer Segmentation Diagram](images/download.png)
+![Customer Segmentation Diagram](images/Heatmap.png)
 
-![Customer Segmentation Diagram](images/download2.png)
+![Customer Segmentation Diagram](images/Cluster_distribution.png)
 
 ##  Mathematical Hypothesis Based on the Heatmap Analysis
 
@@ -84,4 +84,23 @@ The Average Age is around 47 years , Average Annual Income is around 58 k$ , ave
 The Average Age is around 28 years , Average Annual Income is around 62 k$ , average spending score is around 71 and all customers in this cluster seems to be Male.
 
 
+## Project Structure
 
+
+- `data/`: Contains the dataset used for analysis.
+
+- `notebooks/`: Jupyter notebooks with step-by-step explanations of the data processing, clustering, and model development.
+
+- `images/`: This folder contains images used in the project, such as diagrams or visualizations, that might be included in the documentation or displayed on the web app.
+
+- `myenv/`: Another environment folder that might have been used for setting up a different virtual environment. Ensure to use only one virtual environment for consistency.
+
+- `templates/`: Contains the HTML templates for the Flask web application. These templates define the structure and layout of the web pages.
+
+- `.gitignore`: A file that specifies which files and directories Git should ignore. Commonly used to exclude environment folders, compiled code, and other unnecessary files from being tracked by Git.
+
+- `README.md`: The main documentation file for the project, providing an overview, instructions, and other essential information.
+
+- `app.py`: The main Python script that runs the Flask web application. This file includes the route definitions, model loading, and request handling logic.
+
+- `model.pkl`: The serialized machine learning model file. It is loaded in `app.py` to make predictions based on user input.
